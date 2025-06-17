@@ -15,12 +15,10 @@ body{
     text-align:center;
 }
 
-.navbar{
-    background-color: #F2F0EF;
-}
-
 .main{
-    margin-top:60px;
+    margin-top:54px;
+    padding-top:2em;
+    padding-bottom:2em;
     display:flex;
     align-items:center;
     flex-wrap: wrap;
@@ -32,7 +30,14 @@ body{
 }
 
 .footer{
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+    gap:2em;
+    justify-content:space-evenly;
     background-color: #F2F0EF;
+    align-items:center;
+    width:60%;
 }
 
 .fxb{
@@ -56,8 +61,7 @@ body{
 
 .fxb-iv{
     background: rgba(255, 255, 255, 0);
-    border-radius:33px;
-    border:1px solid black;/*only for testing*/
+    border:1px solid red;/*only for testing*/
     padding:2rem;
     /* margin:.5em; */
     width:40%;
@@ -76,6 +80,7 @@ body{
 }
 
 .navbar{
+    border:1px solid red;/*only for testing*/
     display:flex;
     flex-direction:row;
     align-items:center;
@@ -89,4 +94,8 @@ body{
     background-color: rgba(242, 240, 239, 0.5);
     backdrop-filter:blur(50px);
     -webkit-backdrop-filter:blur(50px);
+}
+
+.red-p{
+    color:red;
 }
