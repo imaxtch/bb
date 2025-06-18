@@ -69,11 +69,10 @@ body > * {
 }
 
 .fxb{
-    text-align:left;
     display: flex;
     flex-direction:column;
     justify-content: center;
-    align-items: left;
+    align-items: center;
     overflow: hidden;
     background: rgba(186,186,186,0.25);
     border-radius:33px;
