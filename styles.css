@@ -197,7 +197,7 @@ body > * {
   }
 }
 
-@media (min-aspect-ratio: 19/9) {
+@media (min-aspect-ratio: 21/9) {
   /* Für eher breite Screens */
   .main{
     width:40%;
