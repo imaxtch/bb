@@ -188,3 +188,18 @@ body > * {
 .red-p{
     color:red;
 }
+
+
+@media (max-aspect-ratio: 4/6) {
+  /* Für eher hochformatige oder quadratische Screens */
+  .main{
+    width:80%;
+  }
+}
+
+@media (min-aspect-ratio: 19/9) {
+  /* Für eher breite Screens */
+  .main{
+    width:40%;
+  }
+}
