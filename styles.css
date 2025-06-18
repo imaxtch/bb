@@ -48,7 +48,7 @@ body > * {
     padding-top:2em;
     padding-bottom:2em;
     display:flex;
-    align-items:center;
+    align-items:stretch;
     flex-wrap: wrap;
     gap:2em;
     justify-content:space-evenly;
@@ -69,10 +69,11 @@ body > * {
 }
 
 .fxb{
+    text-align:left;
     display: flex;
     flex-direction:column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     overflow: hidden;
     background: rgba(186,186,186,0.25);
     border-radius:33px;
@@ -81,6 +82,7 @@ body > * {
     /* margin:.5em; */
     width:40%;
     flex-grow: 1;
+    height:auto;
 }
 
 .fxb-s{
