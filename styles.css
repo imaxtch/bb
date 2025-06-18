@@ -153,6 +153,7 @@ body > * {
 .la{
     color:black;
     margin:5px;
+    text-decoration-thickness: 2px;
 }
 
 .l{
