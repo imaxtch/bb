@@ -197,6 +197,13 @@ body > * {
   }
 }
 
+@media (max-width:700px) {
+  /* Für eher hochformatige oder quadratische Screens */
+  .main{
+    width:80%;
+  }
+}
+
 @media (min-aspect-ratio: 21/9) {
   /* Für eher breite Screens */
   .main{
