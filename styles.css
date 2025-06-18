@@ -73,10 +73,10 @@ body{
     border-radius:33px;
     border:1px solid #B8B8B8;
     /* margin:.5em; */
-    width:40%;
-    min-width:40%;
+    width:100%;
+    min-width:100%;
     flex-grow: 1;
-    max-height:200px;
+    /* max-height:200px; */
 }
 
 .fxb-i img {
