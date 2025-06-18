@@ -121,7 +121,7 @@ body > * {
 
 .fxb-iv{
     background: rgba(255, 255, 255, 0);
-    border:1px solid red;/*only for testing*/
+    /*border:1px solid red;/*only for testing*/
     padding:2rem;
     /* margin:.5em; */
     width:40%;
@@ -140,7 +140,7 @@ body > * {
 }
 
 .navbar{
-    border:1px solid red;/*only for testing*/
+    /*border:1px solid red;/*only for testing*/
     display:flex;
     flex-direction:row;
     align-items:center;
