@@ -15,6 +15,10 @@ body{
     text-align:center;
 }
 
+p.bold{
+    font-weight:900;
+}
+
 /*animation von allen body elementen*/
 body > * {
   opacity: 0; /* Startwert */
