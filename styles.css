@@ -20,10 +20,11 @@ p.bold{
 }
 
 /*animation von allen body elementen*/
+/*
 body > * {
-  opacity: 0; /* Startwert */
+  opacity: 0; 
   transform: translateY(-100px);
-  animation: fallIn 0.8s ease-out forwards; /* <- forwards ist wichtig */
+  animation: fallIn 0.8s ease-out forwards; 
 }
 
 @keyframes fallIn {
@@ -37,9 +38,11 @@ body > * {
   }
   100% {
     transform: translateY(0);
-    opacity: 1; /* <- WICHTIG */
+    opacity: 1; 
   }
 }
+
+*/
 
 /*animation ende hier*/
 
